@@ -235,7 +235,7 @@
       <span class="mr-2" style="height: 2px; width: 45px; border-top: 2px solid #df771b; display: inline-block;"></span>
     </div>
 
-    <div class="owl-carousel">
+    <div class="owl-carousel owl-carousel-client" >
       <div class ="client-img-container text-center">
         <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
       </div>
@@ -264,5 +264,98 @@
 </section>
 <!-- ** client end ** -->
 
+<!-- **customer support start** -->
+<section class="customer-support mt-5">
+  <div class="row align-content-center justify-content-center no-gutters">
+    <div class="col-sm-10">
+      <div class=" text-center">
+      <img src="assets/img/customer-service-icon.webp" style="height:5rem;" alt="">
+      </div>
+    <div class="heading-md text-center">
+    24/7 Reliable and punctual Customer support.
+    </div>
+    <div class="heading-md text-center">
+    +919819983768
+    </div>
+    </div>
+  </div>
+</section>
+<!-- **customer support end** -->
+
+<!-- ** Review start ** -->
+<section class="review-section ">
+   <div class="container-fluid mt-5">
+    <div class="heading-lg text-center  mb-3">
+      Whats Clients Say
+      <span class="mr-2" style="height: 2px; width: 45px; border-top: 2px solid #df771b; display: inline-block;"></span>
+    </div>
+<div class="row justify-content-center no-gutters">
+  <div class="col-sm-9">
+      <div class="owl-carousel owl-carousel-review" >
+        <div class="card">
+          <div class="card-body">
+            <div class="heading-sm">
+              Ashish Gharge
+            </div>
+            <p class="para-sm">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure laboriosam fuga 
+              exercitationem possimus corrupti rem ipsa animi cumque error. 
+              Omnis velit ipsam vero aliquam numquam nulla tempora vel explicabo illum!
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <div class="heading-sm">
+              Ashish Gharge
+            </div>
+            <p class="para-sm">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure laboriosam fuga 
+              exercitationem possimus corrupti rem ipsa animi cumque error. 
+              Omnis velit ipsam vero aliquam numquam nulla tempora vel explicabo illum!
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <div class="heading-sm">
+              Ashish Gharge
+            </div>
+            <p class="para-sm">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure laboriosam fuga 
+              exercitationem possimus corrupti rem ipsa animi cumque error. 
+              Omnis velit ipsam vero aliquam numquam nulla tempora vel explicabo illum!
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <div class="heading-sm">
+              Ashish Gharge
+            </div>
+            <p class="para-sm">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure laboriosam fuga 
+              exercitationem possimus corrupti rem ipsa animi cumque error. 
+              Omnis velit ipsam vero aliquam numquam nulla tempora vel explicabo illum!
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <div class="heading-sm">
+              Ashish Gharge
+            </div>
+            <p class="para-sm">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure laboriosam fuga 
+              exercitationem possimus corrupti rem ipsa animi cumque error. 
+              Omnis velit ipsam vero aliquam numquam nulla tempora vel explicabo illum!
+            </p>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+</section>
+<!-- ** client end ** -->
 
 <?php include 'footer.php' ?>
