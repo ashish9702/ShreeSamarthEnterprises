@@ -1,8 +1,26 @@
-<?php include 'header.php' ?>
-<style>
-     li#client {
-    background-color: #ffc532;
-}
-</style>
-<?php include 'footer.php' ?>
-client worling
+<div class="owl-carousel owl-carousel-client" >
+    <div class ="client-img-container text-center">
+        <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+    </div>
+    <div class ="client-img-container text-center">
+        <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+    </div>
+    <div class ="client-img-container text-center">
+        <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+    </div>
+    <div class ="client-img-container text-center">
+        <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+    </div>
+    <div class ="client-img-container text-center">
+        <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+    </div>
+    <div class ="client-img-container text-center">
+        <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+    </div>
+    <div class ="client-img-container text-center">
+        <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+    </div>
+    <div class ="client-img-container text-center">
+        <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+    </div>
+</div>

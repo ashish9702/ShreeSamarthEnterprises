@@ -130,13 +130,20 @@
 
 <!-- **Services Start** -->
 <section class="service-section ">
-   <div class="container-fluid mt-5">
-    <div class="heading-lg text-center  pt-3 mb-3">
-      Services We Provide 
-      <span class="mr-2" style="height: 2px; width: 45px; border-top: 2px solid #df771b; display: inline-block;"></span>
-    </div>
+   <div class="container-fluid mt-5"> 
     <div class="row justify-content-center">
     <div class="col-sm-11">
+    <div class="row no-gutters justify-content-between align-items-center ">
+      <div class="col-sm">
+      <div class="heading-lg text-center  pt-3 mb-3">
+          Services We Provide 
+         <span class="mr-2" style="height: 2px; width: 45px; border-top: 2px solid #df771b; display: inline-block;"></span>
+    </div>
+      </div>
+      <div class="col-sm text-right">
+      <a class="custom-btn btn-3 text-center" href="./about"><span>Know More</span></a>
+      </div>
+    </div>
       <div class="row mt-2">
       <div class="col-sm-3 mb-4">
         <div class="card border-0 shadow-sm service-card">
@@ -235,32 +242,7 @@
       <span class="mr-2" style="height: 2px; width: 45px; border-top: 2px solid #df771b; display: inline-block;"></span>
     </div>
 
-    <div class="owl-carousel owl-carousel-client" >
-      <div class ="client-img-container text-center">
-        <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
-      </div>
-      <div class ="client-img-container text-center">
-        <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
-      </div>
-      <div class ="client-img-container text-center">
-        <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
-      </div>
-      <div class ="client-img-container text-center">
-        <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
-      </div>
-      <div class ="client-img-container text-center">
-        <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
-      </div>
-      <div class ="client-img-container text-center">
-        <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
-      </div>
-      <div class ="client-img-container text-center">
-        <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
-      </div>
-      <div class ="client-img-container text-center">
-        <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
-      </div>
-</div>
+       <?php include 'clients.php' ?>
 </section>
 <!-- ** client end ** -->
 

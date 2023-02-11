@@ -1,3 +1,31 @@
+<style>
+  .whatsapp-btn {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    bottom: 3rem;
+    right: 0.8%;
+    background-color: #00e676;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 24px;
+    z-index: 100;
+    display: grid;
+    place-items: center;
+}
+.icon-shake {
+    animation: shake 1s infinite linear;
+    
+}
+@keyframes shake
+{1.78571%,4.78571%{-webkit-transform:translateX(3px) rotate(15deg);transform:translateX(3px) rotate(15deg)}2.78571%,6.78571%{-webkit-transform:translateX(-3px) rotate(-15deg);transform:translateX(-3px) rotate(-15deg)}12.78571%,8.78571%{-webkit-transform:translateX(2px) rotate(14deg);transform:translateX(2px) rotate(14deg)}10.78571%,14.78571%{-webkit-transform:translateX(-2px) rotate(-14deg);transform:translateX(-2px) rotate(-14deg)}16.78571%{-webkit-transform:translateX(1px) rotate(0);transform:translateX(1px) rotate(0)}18.78571%{-webkit-transform:translateX(-1px) rotate(0);transform:translateX(-1px) rotate(0)}}
+.whatsapp-btn {
+    color: #fff!important;
+}
+</style>
+<a href="https://api.whatsapp.com/send?phone=+919702439329&text=AG Creates." class="whatsapp-btn" target="_blank" title="Chat with whatsapp">
+    <i class="fab fa-whatsapp icon-shake"></i>
+</a>  
 <footer class="mt-5">
 <div class="">
 
@@ -11,14 +39,10 @@
           <h5 class="text-uppercase  mb-4">About company</h5>
   
           <p class="para-sm">
-            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-            voluptatum deleniti atque corrupti.
+          We offer all kinds of pest control services to residential and commercial premises.
           </p>
   
-          <p class="para-sm">
-            Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas
-            molestias.
-          </p>
+  
   
           <div class="mt-4">
             <!-- Facebook -->
@@ -36,7 +60,7 @@
   
         <!--Grid column-->
         <div class="col-lg-4 col-md-6 mb-4 mb-md-0 text-left">
-          <h5 class="text-uppercase mb-4 pb-1">Search something</h5>
+          <h5 class="text-uppercase mb-4 pb-1">Contact Us</h5>
 
           <ul class="fa-ul" style="margin-left: 1.65em;">
             <li class="mb-3">
@@ -84,9 +108,9 @@
     <!-- Grid container -->
   
     <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2021 Copyright:
-      <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    <div class="text-center p-3 para-sm" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2023 Copyright:
+      <a class="text-white para-sm" href="#">Shree Samarth Enterprises</a>
     </div>
     <!-- Copyright -->
   </footer>
@@ -120,6 +144,7 @@
 <script src ="assets/bootstrap-4.6.2-dist/js/bootstrap.min.js"></script>
 <script src="https://kit.fontawesome.com/79d898d5dd.js" crossorigin="anonymous"></script>
 <script src="assets/owl-carousel/owl.carousel.min.js"></script>
+<script src="assets/smooth.js"></script>
 
 <script>
      $(document).ready(function(){
